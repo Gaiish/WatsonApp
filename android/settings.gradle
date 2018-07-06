@@ -1,0 +1,7 @@
+rootProject.name = 'demoRNwatson'
+include ':react-native-audio-record'
+project(':react-native-audio-record').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-audio-record/android')
+include ':react-native-watson'
+project(':react-native-watson').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-watson/android')
+
+include ':app'
